@@ -1,0 +1,60 @@
+{
+  
+  "api_requests": [
+    {
+  "text": "XxxLutz digital is in koblenz"
+},
+{
+  "text": "XxxLutz digital is in koblenz",
+  "add" : "koblenz"
+},
+{
+  "text": "XxxLutz digital is in koblenz",
+  "add" : "koblenz",
+  "fill_text": "berlin"
+},
+{
+  "text": "XxxLutz digital is in koblenz",
+  "add" : "koblenz",
+  "fill_char": ""
+},
+{
+  "text": "XxxLutz digital is in koblenz",
+  "add" : "koblenz",
+  "fill_char": "="
+},
+{
+"text": "XxxLutz digital is in koblenz",
+"add" : "koblenz",
+"fill_text" : "=",
+"fill_char":"~"
+},
+{
+  "text": "This is xxxlutz digital",
+  "add": "xxxlutz,xxxlutz,xxxlutz,xxxlutz,xxxlutz,xxxlutz,xxxlutz,xxxlutz,xxxlutz,xxxlutz,xxxlutz"
+},
+{
+  "text": "This is xxxL digital",
+  "add": "xxxLutz",
+  "fill_text":"@"
+
+},
+{
+  "text": "This is xxxL digital",
+  "add": "xxxLutz",
+  "fill_char":"@"
+
+},
+{
+  "status_code" : 200,
+  "expected_result" : "XxxLutz digital is in koblenz",
+  "expected_result_fill_text_char_default" : "XxxLutz digital is in *******",
+  "expected_result_fill_text_value" : "XxxLutz digital is in berlin",
+  "expected_result_fill_char_value" : "XxxLutz digital is in =======",
+  "error_message_exceeds_word_limit" : "User Black List Exceeds Limit of 10 Words.",
+  "error_message_invalid_replacement_text" : "Invalid User Replacement Text",
+  "error_message_invalid_replacement_char" :"Invalid User Replacement Characters"
+}
+
+  ]
+}
